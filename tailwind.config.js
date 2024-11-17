@@ -5,7 +5,14 @@ export default {
     "./src/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Geist:'"Geist Mono", monospace'
+      },
+      backgroundImage:{
+        'mainLight':"url('/public/roofBg.jpg')"
+      }
+    },
   },
   plugins: [],
 }
