@@ -3,9 +3,10 @@
 </script>
 
 <template>
-  <section class="w-full h-screen flex justify-center items-center flex-col space-y-12 bg-mainLight font-Geist">
-        <div class="px-8 py-2 border-2 bg-white rounded-md">
-           <h2 class="text-teal-800 text-2xl font-smeibold">
+  <section class="w-full h-screen flex justify-center items-center flex-col space-y-12 bg-mainLight font-Geist p-4">
+
+        <div class="p-1.5 border-2 bg-white rounded-md">
+           <h2 class="text-teal-800 text-2xl font-smeibold text-center">
              8 Rivas Roofing & Hardware
            </h2>
         </div>
