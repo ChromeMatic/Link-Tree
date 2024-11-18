@@ -8,7 +8,11 @@
         <div
           class="rounded-md flex flex-col justify-center items-center"
         >
-           <img class="rounded-md lg:w-80 w-72" src="/logo.jpeg" alt="8 Rivas Roofing & Hardware logo">
+           <img
+               class="rounded-md lg:w-80 w-72"
+               src="/logo.jpeg"
+               alt="8 Rivas Roofing & Hardware logo"
+           />
 
         </div>
 
@@ -40,7 +44,6 @@
             <img class="w-8 h-8" src="/instagram.png" alt="instagram">
             <h2 class="font-bold text-lg">Instagram</h2>
           </a>
-
 
         </div>
 
