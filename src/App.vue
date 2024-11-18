@@ -3,12 +3,13 @@
 </script>
 
 <template>
-  <section class="w-full h-screen flex justify-center items-center flex-col space-y-12 bg-mainLight font-Geist p-4">
+  <section class="w-full min-h-screen  flex justify-center items-center flex-col space-y-12 bg-mainLight font-Geist p-4">
 
-        <div class="p-1.5 border-2 bg-white rounded-md">
-           <h2 class="text-teal-800 text-2xl font-smeibold text-center">
-             8 Rivas Roofing & Hardware
-           </h2>
+        <div
+          class="rounded-md flex flex-col justify-center items-center"
+        >
+           <img class="rounded-md lg:w-80 w-72" src="/logo.jpeg" alt="8 Rivas Roofing & Hardware logo">
+
         </div>
 
         <div class="flex lg:flex-row flex-col space-y-4 space-x-0 lg:space-x-8 lg:space-y-0">
@@ -23,6 +24,15 @@
           </a>
 
           <a
+              href="https://www.tiktok.com/@8rivasroofing?_t=8rJLkYBcO2S&_r=1"
+              target="_blank"
+              class="flex space-x-2 justify-center items-center"
+          >
+            <img class="w-8 h-8" src="/tiktok.png" alt="TikTok">
+            <h2 class="font-bold text-lg lg:text-white">TikTok</h2>
+          </a>
+
+          <a
             href="https://www.instagram.com/8rivasroof/profilecard/?igsh=MXVxZTI4Ynk0Y2xiMw=="
             target="_blank"
             class="flex space-x-2 justify-center items-center text-[#E1306C]"
@@ -31,19 +41,6 @@
             <h2 class="font-bold text-lg">Instagram</h2>
           </a>
 
-          <a
-              href="https://www.tiktok.com/@8rivasroofing?_t=8rJLkYBcO2S&_r=1"
-              target="_blank"
-              class="flex space-x-2 justify-center items-center"
-          >
-            <img class="w-8 h-8" src="/tiktok.png" alt="TikTok">
-            <h2 class="font-bold text-lg">TikTok</h2>
-          </a>
-
-<!--          <a href="" target="_blank" class="flex space-x-2 justify-center items-center text-green-400">-->
-<!--            <img class="w-8 h-8" src="/whatsapp.png" alt="whatsapp">-->
-<!--            <h2 class="font-bold text-lg">whatsapp</h2>-->
-<!--          </a>-->
 
         </div>
 
